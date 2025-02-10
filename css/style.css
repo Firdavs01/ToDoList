@@ -1,0 +1,99 @@
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+body .main {
+  position: relative;
+}
+body .container {
+  max-width: 1347px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body .middle__input {
+  width: 250px;
+  height: 50px;
+  padding: 5px;
+  outline: none;
+}
+body .create__btn {
+  width: 160px;
+  width: 250px;
+  height: 30px;
+}
+body .left {
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  border-left: 2px solid white;
+}
+body .middle {
+  top: 180px;
+  right: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+body .middle .middle__list {
+  color: #000;
+  position: fixed;
+  overflow: auto;
+  top: 50px;
+  position: absolute;
+  top: 80px;
+}
+body .middle .middle__item-btn {
+  font-size: 25px;
+  cursor: pointer;
+  color: #000;
+}
+body .middle .middle__item {
+  position: relative;
+  width: 250px;
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.line__though {
+  width: 200px;
+  color: #000;
+  border-radius: 10px;
+}
+
+.together {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.bottom__line {
+  position: absolute;
+  border: 1px solid black;
+  width: 80%;
+  top: 49px;
+}
+
+/*# sourceMappingURL=style.css.map */
